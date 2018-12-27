@@ -130,7 +130,7 @@
 				position: absolute;
 				left: 12%;
 				top: 0px;
-				background-color:#e6e6e6;
+				background-color:#f0f0f5;
 				border-width: 5px
 				border-color: #ffffff;
 				border: 0;<!--设置对象边框-->
@@ -301,6 +301,12 @@
 			    <progress max="35" value="0" id="pg"></progress>
 			    <progress max="3" value="0" id="ls"></progress>
 			    <progress max="34" value="0" id="ms"></progress>
+					<div id="">
+						<image src="zzxy.jpeg" ></image>
+					</div>
+					<div id="">
+						<image src="meng.jpeg" ></image>
+					</div>
 		</fieldset><!--边框装饰条-->
 		
 			
@@ -429,9 +435,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">规则返情-NPDS<small><sup>天</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">不规则返情NPDS<small><sup>天</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">PCN-NPDS<small><sup>天</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因规则返情所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">规则返情-NPDS<small><sup>天</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因不规则返情所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">不规则返情NPDS<small><sup>天</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因B超妊娠检查阴性所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">PCN-NPDS<small><sup>天</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c1" readonly="readonly"></td>
@@ -442,9 +448,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">NIP-NPDS<small><sup>天</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">流产-NPDS<small><sup>天</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">死亡-NPDS<small><sup>天</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因大日龄空怀所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">NIP-NPDS<small><sup>天</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因流产所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">流产-NPDS<small><sup>天</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因死亡所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">死亡-NPDS<small><sup>天</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c4" readonly="readonly"></td>
@@ -455,9 +461,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">淘汰-NPDS<small><sup>天</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">非生产天数<small><sup>天/头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">LSY<small><sup>胎/头/年</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="在一个生产周期内，母猪配种后因淘汰所产生的非生产天数均摊到该批每头配种母猪"><a href="" target="_blank">淘汰-NPDS<small><sup>天</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="母猪一个生产周期所产生的非生产天数，包括断奶至配种间隔、妊娠失败产生的非生产天数"><a href="" target="_blank">非生产天数<small><sup>天/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="年产胎次"><a href="" target="_blank">LSY<small><sup>胎/头/年</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c7" readonly="readonly"></td>
@@ -468,9 +474,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">窝均健仔数<small><sup>头/窝</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">窝均断奶头数<small><sup>头/窝</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">PSY<small><sup>头/头/年</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="窝均产仔总数减去弱仔（无效仔猪）、死胎、木乃伊、畸形"><a href="" target="_blank">窝均健仔数<small><sup>头/窝</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头分娩母猪最终断奶的合格仔猪数"><a href="" target="_blank">窝均断奶头数<small><sup>头/窝</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头母猪每年提供的合格断奶仔猪数"><a href="" target="_blank">PSY<small><sup>头/头/年</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c10" readonly="readonly"></td>
@@ -481,9 +487,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">淘汰母猪头数<small><sup>头/年</sup></small></a></abbr></style></td>	
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">淘汰母猪头数<small><sup>头/批</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每年淘汰母猪总数"><a href="" target="_blank">淘汰母猪头数<small><sup>头/年</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="每批淘汰母猪总数"><a href="" target="_blank">淘汰母猪头数<small><sup>头/批</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批淘汰母猪总数占基础母猪的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c13" readonly="readonly"></td>	
@@ -494,9 +500,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">主动淘汰数量<small><sup>头/批</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">被动淘汰数量<small><sup>头/批</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">批次配种头数<small><sup>头/批</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批主动淘汰母猪的数量"><a href="" target="_blank">主动淘汰数量<small><sup>头/批</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批被动淘汰母猪的数量"><a href="" target="_blank">被动淘汰数量<small><sup>头/批</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种母猪总数"><a href="" target="_blank">批次配种头数<small><sup>头/批</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c16" readonly="readonly"></td>
@@ -507,9 +513,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">批次分娩头数<small><sup>头/批</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">配种后备头数<small><sup>头/批</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批分娩母猪总数"><a href="" target="_blank">批次分娩头数<small><sup>头/批</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批分娩母猪总数占基础母猪的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种后备母猪总数"><a href="" target="_blank">配种后备头数<small><sup>头/批</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c19" readonly="readonly"></td>
@@ -520,9 +526,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">批次占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">配种7d内母猪<small><sup>头/批</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批配种后备母猪总数占基础母猪比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种后备母猪总数占批次配种总数的百分比"><a href="" target="_blank">批次占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种断奶后7天内发情母猪总数"><a href="" target="_blank">配种7d内母猪<small><sup>头/批</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c22" readonly="readonly"></td>
@@ -533,9 +539,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">批次占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">配种问题母猪<small><sup>头/批</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批配种断奶后7天内发情母猪总数占基础母猪数的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种断奶后7天内发情母猪总数占批次配种总数的比例"><a href="" target="_blank">批次占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种问题母猪总数，主要包括返情、空怀、流产、超期母猪"><a href="" target="_blank">配种问题母猪<small><sup>头/批</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c25" readonly="readonly"></td>
@@ -546,9 +552,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">批次占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">产仔总数<small><sup>头/批</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批配种问题母猪总数占基础母猪数的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批配种问题母猪总数占批次配种总数的比例"><a href="" target="_blank">批次占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批产仔总数"><a href="" target="_blank">产仔总数<small><sup>头/批</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c28" readonly="readonly"></td>
@@ -559,9 +565,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">产健仔总数<small><sup>头/批</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批产仔总数占基础母猪数的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批产健仔总数"><a href="" target="_blank">产健仔总数<small><sup>头/批</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批产健仔总数占基础母猪数的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c31" readonly="readonly"></td>
@@ -572,9 +578,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">断奶总数<small><sup>头/批</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">MSY<small><sup>头/头/年</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每批断奶仔猪总数"><a href="" target="_blank">断奶总数<small><sup>头/批</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每批断奶仔猪总数占基础母猪数的比例"><a href="" target="_blank">基础母猪占比<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头母猪每年出售商品猪的数量"><a href="" target="_blank">MSY<small><sup>头/头/年</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c34" readonly="readonly"></td>
@@ -585,9 +591,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">规则返情/批配<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">不规则返情/批配<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">PCN/批次配种<small><sup>%</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="规则返情占批次配种总数的比例"><a href="" target="_blank">规则返情/批配<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="不规则返情占批次配种总数的比例"><a href="" target="_blank">不规则返情/批配<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="B超妊娠检查阴性占批次配种总数的比例"><a href="" target="_blank">PCN/批次配种<small><sup>%</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c37" readonly="readonly"></td>
@@ -598,9 +604,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">NIP/批次配种<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">流产/批次配种<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">死亡/批次配种<small><sup>%</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="大日龄空怀占批次配种总数的比例"><a href="" target="_blank">NIP/批次配种<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="流产占批次配种总数的比例"><a href="" target="_blank">流产/批次配种<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="死亡占批次配种总数的比例"><a href="" target="_blank">死亡/批次配种<small><sup>%</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c40" readonly="readonly"></td>
@@ -611,9 +617,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">淘汰/批次配种<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">死胎/产仔总数<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">弱仔/产仔总数<small><sup>%</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="淘汰占批次配种总数的比例"><a href="" target="_blank">淘汰/批次配种<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="死胎占窝均产仔总数的比例"><a href="" target="_blank">死胎/产仔总数<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="弱仔（无效仔猪）占窝均产仔总数的比例"><a href="" target="_blank">弱仔/产仔总数<small><sup>%</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c43" readonly="readonly"></td>
@@ -624,9 +630,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">木乃伊/产仔总数<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">畸形/产仔总数<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">压死/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="木乃伊占窝均产仔总数的比例"><a href="" target="_blank">木乃伊/产仔总数<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="畸形占窝均产仔总数的比例"><a href="" target="_blank">畸形/产仔总数<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="压死占健仔总数的比例"><a href="" target="_blank">压死/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c46" readonly="readonly"></td>
@@ -637,9 +643,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">饿死/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">腹泻/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">已知疾病/健仔<small><sup>%</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="饿死占健仔总数的比例"><a href="" target="_blank">饿死/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="腹泻占健仔总数的比例"><a href="" target="_blank">腹泻/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="已知畸形占健仔总数的比例"><a href="" target="_blank">已知疾病/健仔<small><sup>%</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c49" readonly="readonly"></td>
@@ -650,9 +656,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">未知疾病/健仔<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">淘汰/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">单元数量<small><sup>栋</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="未知疾病占健仔总数的比例"><a href="" target="_blank">未知疾病/健仔<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="主动淘汰占健仔总数的比例"><a href="" target="_blank">淘汰/窝均健仔<small><sup>%</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="分娩舍单元数量"><a href="" target="_blank">单元数量<small><sup>栋</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="c52" readonly="readonly"></td>		
@@ -663,9 +669,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">产床数量<small><sup>张</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">定位栏数量<small><sup>个</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">机会栏数量<small><sup>个</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="分娩舍产床总数"><a href="" target="_blank">产床数量<small><sup>张</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="配种怀孕舍定位栏总数，不包括饲养断奶母猪的大栏，但包括了机会栏、调节补充栏"><a href="" target="_blank">定位栏数量<small><sup>个</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="配种后出现问题的母猪弱不淘汰，转入机会栏，如妊娠检查阴性母猪、流产母猪等"><a href="" target="_blank">机会栏数量<small><sup>个</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="d2" readonly="readonly"></td>
@@ -676,9 +682,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">调节补充栏数量<small><sup>个</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育栏数<small><sup>栏</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育单元数<small><sup>栋</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="配种问题母猪的区域"><a href="" target="_blank">调节补充栏数量<small><sup>个</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="按照基础母猪规模需要配置保育总的栏位数"><a href="" target="_blank">保育栏数<small><sup>栏</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="按照基础母猪规模需要配置保育总的单元数"><a href="" target="_blank">保育单元数<small><sup>栋</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="d5" readonly="readonly"></td>
@@ -689,9 +695,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育设计存栏<small><sup>头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">出栏保育猪数<small><sup>头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥栏数<small><sup>栏</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="按照基础母猪规模需要设计保育舍的最大存栏量"><a href="" target="_blank">保育设计存栏<small><sup>头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每年出栏保育猪总数"><a href="" target="_blank">出栏保育猪数<small><sup>头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="按照基础母猪规模需要配置育肥总的栏位数"><a href="" target="_blank">育肥栏数<small><sup>栏</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="d8" readonly="readonly"></td>
@@ -702,9 +708,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥单元数<small><sup>栋</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥设计存栏<small><sup>头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">出栏育肥猪数<small><sup>头/年</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="按照基础母猪规模需要配置育肥总的单元数"><a href="" target="_blank">育肥单元数<small><sup>栋</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="按照基础母猪规模需要设计育肥舍的最大存栏量"><a href="" target="_blank">育肥设计存栏<small><sup>头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每年出栏育肥猪总数"><a href="" target="_blank">出栏育肥猪数<small><sup>头/年</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="d11" readonly="readonly"></td>
@@ -715,9 +721,9 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">隔离舍存栏量<small><sup>头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">后备舍存栏量<small><sup>头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">公猪舍存栏量<small><sup>头</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="隔离舍设计存栏量"><a href="" target="_blank">隔离舍存栏量<small><sup>头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="后备舍设计存栏量"><a href="" target="_blank">后备舍存栏量<small><sup>头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="公猪舍设计存栏量"><a href="" target="_blank">公猪舍存栏量<small><sup>头</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="four" type="text" id="d14" readonly="readonly"></td>
@@ -866,8 +872,8 @@
 			    	
 			    	<table>  
 			    		<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">母固定资产<small><sup>元/头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">生物成本<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="种猪区场房、设备按照折旧年限均摊到每头母猪"><a href="" target="_blank">母固定资产<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="后备母猪引种、培育成本减去种猪淘汰残值，按照胎次均摊到每头母猪"><a href="" target="_blank">生物成本<small><sup>元/头/年</sup></small></a></abbr></style></td>
 			    		</tr>
 			    		<tr>  
 							<td><input class="three" type="text" id="cc1" value=""></td>
@@ -877,8 +883,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">母猪饲料<small><sup>元/头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">母猪药品<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="种猪每年消耗饲料的费用"><a href="" target="_blank">母猪饲料<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头种猪每年耗用药品的费用"><a href="" target="_blank">母猪药品<small><sup>元/头/年</sup></small></a></abbr></style></td>
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc3" value=""></td>
@@ -888,8 +894,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">母猪疫苗<small><sup>元/头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">人员/管理<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头母猪每年耗用疫苗的费用"><a href="" target="_blank">母猪疫苗<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每年人员管理费用均摊到每头母猪"><a href="" target="_blank">人员/管理<small><sup>元/头/年</sup></small></a></abbr></style></td>
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc5" value=""></td>
@@ -899,8 +905,8 @@
 										
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">低值易耗品<small><sup>元/头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">水电燃料<small><sup>元/头/年</sup></small></a></abbr></style></td>			
+							<td style=font-size:11px><abbr title="每年低值易耗品费用均到到每头母猪"><a href="" target="_blank">低值易耗品<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每年水电燃料费用均摊到每头母猪"><a href="" target="_blank">水电燃料<small><sup>元/头/年</sup></small></a></abbr></style></td>			
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc7" value=""></td>
@@ -910,8 +916,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">仔猪药品<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">仔猪疫苗<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="哺乳期间每头仔猪的药品费用"><a href="" target="_blank">仔猪药品<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="哺乳期间每头仔猪的疫苗费用"><a href="" target="_blank">仔猪疫苗<small><sup>元/头</sup></small></a></abbr></style></td>
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc9" value=""></td>
@@ -921,8 +927,8 @@
 										
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">教槽料<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育固定<small><sup>元/头</sup></small></a></abbr></style></td>			
+							<td style=font-size:11px><abbr title="哺乳期间每头仔猪耗用教槽料的费用"><a href="" target="_blank">教槽料<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="保育舍场房、设备按照折旧年限均摊到每头保育猪"><a href="" target="_blank">保育固定<small><sup>元/头</sup></small></a></abbr></style></td>			
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc11" value=""></td>
@@ -932,8 +938,8 @@
 										
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育饲料<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育药品<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头保育猪耗用的饲料费用"><a href="" target="_blank">保育饲料<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头保育猪耗用的药品费用"><a href="" target="_blank">保育药品<small><sup>元/头</sup></small></a></abbr></style></td>
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc13" value=""></td>
@@ -943,8 +949,8 @@
 															
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育疫苗<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">人工/管理<small><sup>元/头</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每头保育猪耗用的疫苗费用"><a href="" target="_blank">保育疫苗<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="人员管理费用均摊到每头保育猪"><a href="" target="_blank">人工/管理<small><sup>元/头</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc15" value=""></td>
@@ -954,8 +960,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">水电燃料<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥固定<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头保育猪耗用的水电燃料费用"><a href="" target="_blank">水电燃料<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="育肥舍场房、设备按照折旧年限均摊到每头保育猪"><a href="" target="_blank">育肥固定<small><sup>元/头</sup></small></a></abbr></style></td>
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc17" value=""></td>
@@ -965,8 +971,8 @@
 										
 					<table>  
 					    <tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥饲料<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥药品<small><sup>元/头</sup></small></a></abbr></style></td>			
+							<td style=font-size:11px><abbr title="每头育肥猪耗用的饲料费用"><a href="" target="_blank">育肥饲料<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头育肥猪耗用的药品费用"><a href="" target="_blank">育肥药品<small><sup>元/头</sup></small></a></abbr></style></td>			
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc19" value=""></td>
@@ -976,8 +982,8 @@
 										
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥疫苗<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">人工/管理<small><sup>元/头</sup></small></a></abbr></style></td>			
+							<td style=font-size:11px><abbr title="每头育肥猪耗用的疫苗费用"><a href="" target="_blank">育肥疫苗<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="人员管理费用均摊到每头育肥猪"><a href="" target="_blank">人工/管理<small><sup>元/头</sup></small></a></abbr></style></td>			
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc21" value=""></td>
@@ -987,8 +993,8 @@
 															
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">水电燃料<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">出栏价格<small><sup>元/公斤</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="每头育肥猪耗用的水电燃料费用"><a href="" target="_blank">水电燃料<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="出栏时的单价"><a href="" target="_blank">出栏价格<small><sup>元/公斤</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc23" value=""></td>
@@ -998,7 +1004,7 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">出栏体重<small><sup>公斤/头</sup></small></a></abbr></style></td>								
+							<td style=font-size:11px><abbr title="出栏时的体重"><a href="" target="_blank">出栏体重<small><sup>公斤/头</sup></small></a></abbr></style></td>								
 						</tr>
 						<tr>  
 							<td><input class="three" type="text" id="cc25" value=""></td>								
@@ -1016,8 +1022,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">母猪成本<small><sup>元/头/年</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">落地成本<small><sup>元/头</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="每头母猪每年总的成本"><a href="" target="_blank">母猪成本<small><sup>元/头/年</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="母猪成本均摊到每头出生仔猪"><a href="" target="_blank">落地成本<small><sup>元/头</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e1" readonly="readonly"></td>
@@ -1027,8 +1033,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">仔猪成本<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">断奶成本<small><sup>元/头</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="哺乳期间仔猪发生成本总和"><a href="" target="_blank">仔猪成本<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头断奶仔猪总的成本"><a href="" target="_blank">断奶成本<small><sup>元/头</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e3" readonly="readonly"></td>
@@ -1038,8 +1044,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育成本<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">死亡成本<small><sup>元/头</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="保育期间仔猪发生成本总和"><a href="" target="_blank">保育成本<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="保育期间仔猪死亡损失均摊到每头保育仔猪"><a href="" target="_blank">死亡成本<small><sup>元/头</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e5" readonly="readonly"></td>
@@ -1049,8 +1055,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">保育猪成本<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">育肥成本<small><sup>元/头</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="每头出栏保育猪的成本总和"><a href="" target="_blank">保育猪成本<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="育肥期间猪只发生的成本总和"><a href="" target="_blank">育肥成本<small><sup>元/头</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e7" readonly="readonly"></td>
@@ -1060,8 +1066,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">死亡成本<small><sup>元/头</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">总成本<small><sup>元/头</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="育肥期间猪只死亡损失均摊到每头育肥猪"><a href="" target="_blank">死亡成本<small><sup>元/头</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="出生至出栏的成本总和"><a href="" target="_blank">总成本<small><sup>元/头</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e9" readonly="readonly"></td>
@@ -1071,8 +1077,8 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">单位收益<small><sup>元/公斤</sup></small></a></abbr></style></td>
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">单位收益<small><sup>元/头</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="每公斤体重收益"><a href="" target="_blank">单位收益<small><sup>元/公斤</sup></small></a></abbr></style></td>
+							<td style=font-size:11px><abbr title="每头收益"><a href="" target="_blank">单位收益<small><sup>元/头</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e11" readonly="readonly"></td>
@@ -1082,7 +1088,7 @@
 					
 					<table>  
 						<tr>   
-							<td style=font-size:11px><abbr title=""><a href="" target="_blank">总收益<small><sup>万元/年</sup></small></a></abbr></style></td>	
+							<td style=font-size:11px><abbr title="农场每年收益总和"><a href="" target="_blank">总收益<small><sup>万元/年</sup></small></a></abbr></style></td>	
 						</tr>
 						<tr>  
 							<td><input class="five" type="text" id="e13" readonly="readonly"></td>
